@@ -1,0 +1,24 @@
+section.slide-show{
+    .carousel-inner{
+        img{
+            height: 400px;
+        }
+    }
+}
+section.content{
+    .card{
+        border: 1px solid #ccc;
+        padding: 10px;
+        .btn-cart{
+            background-color: #126ef9;
+            width: 100%;
+            color: #fff;
+        }
+        .btn-cart:hover{
+            box-shadow: 2px 2px 20px 2px #7684c2;
+        }
+    }
+    .card:hover{
+        box-shadow: 2px 2px 20px 2px #c7ccd3;
+    }
+}

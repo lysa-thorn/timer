@@ -1,0 +1,30 @@
+section.feedback-page{
+    .content {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    
+    header {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        
+        background-color: var(--bg-color);
+        
+        h1 {
+            margin: 2em 1em;
+            font-size: 250%;
+        }
+        
+        img {
+            height: auto;
+            max-width: 20em;
+            margin-bottom: 2em;
+        }
+    }
+
+    .feedbackForm{
+        margin-top: 150px;
+    }
+
+}
